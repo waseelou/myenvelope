@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equive="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>CSS Envelope + Letter (Open/close on Click)</title>
+        <link rel="stylesheet" href="./firstpg.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="envelope-wrapper">
+                <div class="envelope">
+                    <div class="letter">
+                        <div class="text">
+                            <strong>my love.</strong>
+                            <p>
+                                paragraph here,
+                                paragraph here.
+                            </p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="heart"></div>
+            </div>
+        </div>
+        <script>
+            const envelope = document.querySelector('.envelope-wrapper');
+            envelope.addEventListener('click',() => {
+                envelope.classList.toggle('flap');
+            });
+        </script>
+        <!-- <button>
+            <a href="secondpg.html" class="next1-button"> Next </a>
+        </button> -->
+        <div class="b1-container">
+            <a href="secondpg.html" class="next1-button"> Next </a>
+        </div>
+    </body>
+</html>
