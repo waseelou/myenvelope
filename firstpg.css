@@ -118,20 +118,20 @@
     transition-delay: 0.4s;
   }
 
-.b1-container {
-  position: fixed; /* Ensures it stays independent */
-  top: 70%; /* Adjust as needed */
+/*  .b1-container {
+  position: fixed; 
+  top: 70%; 
   justify-content: center;
   align-items: center;
   display: flex;
-  justify-content: center; /* Centers the button */
-  margin-top: 50px; /* Adds space between envelope and button */
+  justify-content: center;
+  margin-top: 50px; 
 }
 .next1-button {
   padding: 10px 20px;
   font-size: 16px;
   color: rgb(242, 232, 219);
-  background: var(--heart-color); /* Matches your theme */
+  background: var(--heart-color); 
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -139,4 +139,4 @@
 }
 .next1-button:hover {
   background: darkred;
-}
+}  */
